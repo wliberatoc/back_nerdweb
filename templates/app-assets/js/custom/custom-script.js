@@ -65,7 +65,7 @@ $(document).on('submit', "#cadastrar", function (e) {
 $(document).ready( function () {
     $('#myTable').DataTable({
 		responsive: true,
-		"order": [["data","desc"]],
+		"order": [[2,"desc"]],
 		"language": {
 			"url": "//cdn.datatables.net/plug-ins/1.11.4/i18n/pt_br.json"
 		}

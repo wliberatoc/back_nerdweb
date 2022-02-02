@@ -1,7 +1,7 @@
 <?php include('components/Head.php')?>
-    <link rel="stylesheet" type="text/css" href="http://localhost/nerdweb/templates/app-assets/vendors/data-tables/css/jquery.dataTables.min.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost/nerdweb/templates/app-assets/vendors/data-tables/extensions/responsive/css/responsive.dataTables.min.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost/nerdweb/templates/app-assets/vendors/data-tables/css/select.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="<?=__PATH__?>/templates/app-assets/vendors/data-tables/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="<?=__PATH__?>/templates/app-assets/vendors/data-tables/extensions/responsive/css/responsive.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="<?=__PATH__?>/templates/app-assets/vendors/data-tables/css/select.dataTables.min.css">
 <?php include('components/Header.php')?>
 <?php include('components/SideNav.php')?>
 <!-- BEGIN: Page Main-->
@@ -76,6 +76,3 @@
     </div>
 </main> 
 <?php include('components/Footer.php')?>
-<script src="http://localhost/nerdweb/templates/app-assets/vendors/data-tables/js/jquery.dataTables.min.js"></script>
-<script src="http://localhost/nerdweb/templates/app-assets/vendors/data-tables/extensions/responsive/js/dataTables.responsive.min.js"></script>
-<script src="http://localhost/nerdweb/templates/app-assets/vendors/data-tables/js/dataTables.select.min.js"></script>

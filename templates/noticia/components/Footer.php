@@ -12,7 +12,9 @@
     <!-- BEGIN VENDOR JS-->
     <script src="<?=__PATH__?>/templates/app-assets/js/vendors.min.js"></script>
     <!-- BEGIN VENDOR JS-->
-
+    <script src="<?=__PATH__?>/templates/app-assets/vendors/data-tables/js/jquery.dataTables.min.js"></script>
+    <script src="<?=__PATH__?>/templates/app-assets/vendors/data-tables/extensions/responsive/js/dataTables.responsive.min.js"></script>
+    <script src="<?=__PATH__?>/templates/app-assets/vendors/data-tables/js/dataTables.select.min.js"></script>/
     <!-- BEGIN THEME  JS-->
     <script src="<?=__PATH__?>/templates/app-assets/js/plugins.js"></script>
     <script src="<?=__PATH__?>/templates/app-assets/js/search.js"></script>
